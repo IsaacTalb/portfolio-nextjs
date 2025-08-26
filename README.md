@@ -25,22 +25,22 @@ Designed for a **self-taught Full-Stack Developer**, offering **web + hosting se
 
 ## 📂 Project Structure
 
+```
 src/
-app/ # Next.js App Router pages
-(site)/ # Site layout + main pages
-projects/ # Projects showcase
-services/ # Services offered
-blog/ # Blog / Insights
-contact/ # Contact page
-components/ # UI + custom components (Navbar, Hero, Footer, Cards)
-lib/ # Strapi API fetchers, utils, types
-content/ # Temporary local data until Strapi is connected
-styles/ # Tailwind global styles
-public/ # Static assets (images, favicons)
+├── app/                # Next.js App Router pages
+│   ├── (site)/         # Site layout + main pages
+│   ├── projects/       # Projects showcase
+│   ├── services/       # Services offered
+│   ├── blog/           # Blog / Insights
+│   └── contact/        # Contact page
+├── components/         # UI + custom components (Navbar, Hero, Footer, Cards)
+├── lib/                # Strapi API fetchers, utils, types
+├── content/            # Temporary local data until Strapi is connected
+├── styles/             # Tailwind global styles
+public/                 # Static assets (images, favicons)
+```
 
 ---
-
-## ⚙️ Getting Started
 
 Clone and install dependencies:
 
