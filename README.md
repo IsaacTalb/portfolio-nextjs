@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Portfolio (Next.js + Tailwind)
 
-First, run the development server:
+🚀 A bold, Apple-inspired portfolio website built with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS**.  
+Designed for a **self-taught Full-Stack Developer**, offering **web + hosting services**, building for **content creators**, and exploring the world of **AI**.
+
+🔗 Live: [isaac.duckcloud.info](https://isaac.duckcloud.info)  
+🖥️ Backend: Powered by [Strapi CMS](https://strapi.io) (integration coming soon)
+
+---
+
+## ✨ Features
+
+- ⚡ **Next.js 15 App Router** with Turbopack (fast local dev)
+- 🎨 **Apple-style design** — bold typography, minimal, high-contrast
+- 💻 **Self-hosted & client projects** showcased as case studies
+- 🛠️ **Services section** for web development, hosting, and AI solutions
+- 📰 **Blog (Insights)** — technical posts & content for creators
+- 🔌 **Strapi CMS integration ready** (projects, services, posts)
+- 📱 **Responsive design** — mobile-first, sharp on all devices
+- 🛡️ **TypeScript + ESLint** — safe and maintainable code
+- ✍️ Built with **shadcn/ui**, **Framer Motion**, and **Lucide Icons**
+
+---
+
+## 📂 Project Structure
+
+src/
+app/ # Next.js App Router pages
+(site)/ # Site layout + main pages
+projects/ # Projects showcase
+services/ # Services offered
+blog/ # Blog / Insights
+contact/ # Contact page
+components/ # UI + custom components (Navbar, Hero, Footer, Cards)
+lib/ # Strapi API fetchers, utils, types
+content/ # Temporary local data until Strapi is connected
+styles/ # Tailwind global styles
+public/ # Static assets (images, favicons)
+
+---
+
+## ⚙️ Getting Started
+
+Clone and install dependencies:
+
+```bash
+git clone https://github.com/IsaacTalb/portfolio-nextjs.git
+cd portfolio-nextjs
+npm install
+```
+
+Run in development:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit → http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 Environment Variables
+Create a .env.local file:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
-## Learn More
+# Strapi API (for later integration)
+STRAPI_URL=https://api.isaac.duckcloud.info
+STRAPI_API_TOKEN=your_strapi_api_token
+```
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Deployment
+This project is deployed on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push to GitHub
+2. Import repository in Vercel dashboard
+3. Set environment variables in Vercel
+4. Assign custom domain → isaac.duckcloud.info
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 15 — React framework
+- Tailwind CSS — Utility-first CSS
+- TypeScript — Static typing
+- Framer Motion — Animations
+- shadcn/ui — Reusable UI components
+- Lucide Icons — Icon set
+- Strapi CMS — Headless CMS (coming soon)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ About
+
+This portfolio reflects my journey as a self-taught developer:
+
+🌐 Full-Stack Development
+🖥️ Web Hosting & Infrastructure
+🎥 Content Creation & Automation
+🤖 AI Enthusiasm + Experiments
+
+---
+
+## 📬 Contact
+
+📧 Email: isaac@duckcloud.info
+🐙 GitHub: IsaacTalb
+
+---
