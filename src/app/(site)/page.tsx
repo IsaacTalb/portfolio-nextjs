@@ -3,6 +3,7 @@ import { ServiceCard } from "@/components/service-card";
 import { ProjectCard } from "@/components/project-card";
 import { services } from "@/content/services";
 import { projects } from "@/content/projects";
+import { Newsletter } from "@/components/newsletter";
 
 export default async function Page() {
   return (
